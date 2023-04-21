@@ -1,0 +1,1 @@
+docker run -it --rm --gpus=all --net=host -v $PWD:/mmdetection -w /mmdetection shuairen/mmdetection:v3.0.0-cuda11.1
